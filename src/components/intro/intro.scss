@@ -1,0 +1,29 @@
+.intro {
+    padding: 6px 20px;
+}
+
+.intro__title {
+    font-size: 31px;
+    line-height: 37px;
+    margin: 0;
+    margin-bottom: 15px;
+    color: $white;
+}
+
+.intro__description {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    margin-bottom: 26px;
+    color: $text_light;
+}
+
+.intro__button {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15.5px 128.5px;
+    border: none;
+    border-radius: 68px;
+    color: $white;
+    background-color: $bright_1;
+}

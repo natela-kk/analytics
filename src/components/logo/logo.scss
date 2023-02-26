@@ -1,0 +1,28 @@
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.logo__img {
+    margin-right: 10px;
+
+    &--header {
+        color: $bright_1;
+    }
+
+    &--footer {
+        color: $text_light;
+    }
+}
+
+.logo__text {
+    align-self: center;
+
+    &--header {
+        color: $white;
+    }
+
+    &--footer {
+        color: $text_light;
+    }
+}

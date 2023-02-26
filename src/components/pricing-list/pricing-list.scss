@@ -1,0 +1,27 @@
+.pricing-list {
+    padding: 132px 0px 44px;
+}
+
+.pricing-list__title {
+    padding: 0 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 35px;
+    color: $white;
+}
+
+.pricing-list__description {
+    padding: 0 20px;
+    margin: 0;
+    margin-bottom: 59px;
+    font-size: 14px;
+    line-height: 20px;
+    color: $text_light;
+}
+
+.pricing-list__plans {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}

@@ -1,0 +1,44 @@
+.nav {
+    font-size: 16px;
+    line-height: 19px;
+    color: $text_light;
+    position: relative;
+
+    &--closed .nav__toggle::before {
+        content: "";
+        position: absolute;
+        top: 3px;
+        right: 0;
+        width: 24px;
+        height: 3px;
+        background-color: $text_light;
+        box-shadow: 0 8px 0 0 $text_light, 0 16px 0 0 $text_light;
+    }
+
+    &--closed .nav-list {
+        display: none;
+    }
+}
+
+.nav__toggle {
+  position: relative;
+  z-index: 2;
+  display: block;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.nav-link {
+    color: $text_light;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+@media (min-width: $tablet_width) {}

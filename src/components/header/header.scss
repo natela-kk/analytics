@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 4px 4px $shadow_dark;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.header__sign-container {
+    font-size: 16px;
+    line-height: 19px;
+    color: $text_light;
+}
+
+.header__sign-in,
+.header__sign-up {
+    color: $text_light;
+    text-decoration: none;
+}
+
+.header__sign-up {
+    display: none;
+}
+
+.header__sign-in {
+    margin-right: 18px;
+}
+
+@media (min-width: $tablet_width) {
+    .header__sign-up {
+        display: block;
+    }
+}

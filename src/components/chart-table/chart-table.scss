@@ -1,0 +1,20 @@
+.chart-table {
+    padding: 20px;
+}
+
+.chart-table__main {
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+.chart-table__item {
+    display: none;
+}
+
+@media (min-width: $tablet-width) {
+    .chart-table__item {
+        display: block;
+    }
+}

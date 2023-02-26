@@ -1,0 +1,36 @@
+.feature {
+    padding-left: 89px;
+    margin-bottom: 35px;
+}
+
+.feature__title {
+    margin: 0;
+    margin-bottom: 9px;
+    font-size: 16px;
+    line-height: 19px;
+    color: $text_dark;
+}
+
+.feature--monitoring {
+    background-image: url("../../images/monitoring.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.feature--widget {
+    background-image: url("../../images/widget.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.feature--performance {
+    background-image: url("../../images/performance.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.feature__description {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+}

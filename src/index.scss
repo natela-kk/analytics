@@ -1,6 +1,24 @@
+@import './styles/variables.scss';
+@import './/pages/main/main.scss';
+@import './components/header/header.scss';
+@import './components/logo/logo.scss';
+@import './components/nav/nav.scss';
+@import './components/intro/intro.scss';
+@import './components/chart-table/chart-table.scss';
+@import './components/features-list/features-list.scss';
+@import './components/feature/feature.scss';
+@import './components/functional-list/functional-list.scss';
+@import './components/functional-item/functional-item.scss';
+@import './components/pricing-list/pricing-list.scss';
+@import './components/pricing-plan/pricing-plan.scss';
+@import './components/footer/footer.scss';
+
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +28,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/fonts/Roboto/Roboto-Regular.woff') format('woff'),
+       url("../src/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/fonts/Roboto/Roboto-Bold.woff') format('woff'),
+       url("../src/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

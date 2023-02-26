@@ -1,0 +1,19 @@
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0px 48px;
+    margin: 0 20px;
+    border-top: 1px solid $border_dark;
+}
+
+.footer__social-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.footer__social-link {
+    color: $text_light;
+    text-decoration: none;
+}

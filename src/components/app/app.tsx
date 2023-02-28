@@ -1,11 +1,11 @@
 // import './App.scss';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
-import { AppRoute } from '../../const';
+import { AppRoute } from '../../AppRoute';
 import Blog from '../../pages/blog/blog';
 import Faq from '../../pages/faq/faq';
 import Main from '../../pages/main/main';
 import NotFound from '../../pages/not-found/not-found';
-import Pricing from '../../pages/pricing/pricing';
+import Pricing from '../../pages/pricing-list/pricing-list';
 import Products from '../../pages/products/products';
 import SignIn from '../../pages/sign-in/sign-in';
 import SignUp from '../../pages/sign-up/sign-up';

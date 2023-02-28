@@ -1,4 +1,4 @@
-import Feature from '../feature/feature';
+import Feature from '../Feature/Feature';
 
 function FeaturesList() {
     return (

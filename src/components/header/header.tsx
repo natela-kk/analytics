@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { AppRoute } from '../../const';
-import Nav from '../nav/nav';
-import Logo from '../logo/logo';
+import { AppRoute } from '../../AppRoute';
+import Nav from '../Nav/Nav';
+import Logo from '../Logo/Logo';
 
 function Header() {
     return (

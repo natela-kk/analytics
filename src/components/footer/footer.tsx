@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 // import Nav from '../nav/nav';
-import Logo from '../logo/logo';
+import Logo from '../Logo/Logo';
 
 function Footer() {
     return (

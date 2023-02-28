@@ -1,4 +1,4 @@
-import PricingPlan from '../pricing-plan/pricing-plan';
+import PricingPlan from '../Pricing-plan/Pricing-plan';
 
 function PricingList() {
     return (

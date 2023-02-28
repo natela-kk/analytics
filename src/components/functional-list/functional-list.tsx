@@ -1,4 +1,4 @@
-import FunctionalItem from '../functional-item/functional-item';
+import FunctionalItem from '../Functional-item/Functional-item';
 
 function FunctionalList() {
     return (

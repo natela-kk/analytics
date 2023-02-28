@@ -1,10 +1,10 @@
-import ChartTable from '../../components/chart-table/chart-table';
-import FeaturesList from '../../components/features-list/features-list';
-import Footer from '../../components/footer/footer';
-import FunctionalList from '../../components/functional-list/functional-list';
-import Header from '../../components/header/header';
-import Intro from '../../components/intro/intro';
-import PricingList from '../../components/pricing-list/pricing-list';
+import ChartTable from '../../components/Chart-table/Chart-table';
+import FeaturesList from '../../components/Features-list/Features-list';
+import Footer from '../../components/Footer/Footer';
+import FunctionalList from '../../components/Functional-list/Functional-list';
+import Header from '../../components/Header/Header';
+import Intro from '../../components/Intro/Intro';
+import PricingList from '../../components/Pricing-list/Pricing-list';
 
 function Main() {
     return (
